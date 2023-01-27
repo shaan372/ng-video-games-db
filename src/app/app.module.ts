@@ -1,4 +1,3 @@
-
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -26,7 +25,7 @@ import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
     SearchBarComponent,
     HomeComponent,
     DetailsComponent,
-    GameTabsComponent
+    GameTabsComponent,
   ],
   imports: [
     BrowserModule,

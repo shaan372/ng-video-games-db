@@ -4,7 +4,7 @@ import { Observable } from "rxjs";
 
 @Injectable()
 export class HttpHeadersInterceptor implements HttpInterceptor {
-  constructor() {}
+  constructor() { }
 
   intercept(
     req: HttpRequest<any>,
